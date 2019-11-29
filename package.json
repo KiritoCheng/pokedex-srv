@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/.bin/tsc",
+    "spider": "./node_modules/.bin/tsc && node ./dist/util/spider.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.14"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
